@@ -98,7 +98,7 @@
 					<div class="champ-upload-wrapper">
 						<div class="champ-upload-wrapper-lib">test upload Tanjona</div>
 
-						<label for="id_tanjona"><img src="https://www.svgrepo.com/show/17692/photo-camera.svg" style="
+						<label id="test_tanjona" for="id_tanjona"><img src="https://www.svgrepo.com/show/17692/photo-camera.svg" style="
 				    width: 100px;"></label>
 					</div>
 
@@ -121,6 +121,14 @@
 		<img src="img/image-a-supprimer.png">
 		<script type="text/javascript"
 			src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1355836587" async></script>
+
+	<script>
+		$(function(){
+			$("#test_tanjona").click(function(){
+				$("#id_tanjona input").click()
+			})
+		})
+	</script>
 </body>
 <!-- Bloc qui sert d'exemple (A supprimer) -->
 
